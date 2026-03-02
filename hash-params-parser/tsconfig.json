@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // 编译目标：ES5可以兼容更老的环境，ES6更新
+    "target": "ES5",
+    
+    // 模块系统：CommonJS是Node.js的标准
+    "module": "CommonJS",
+    
+    // 输出目录
+    "outDir": "./dist",
+    
+    // 是否生成类型声明文件（非常重要！）
+    "declaration": true,
+    
+    // 类型声明文件的输出目录
+    "declarationDir": "./dist/types",
+    
+    // 开启严格模式
+    "strict": true,
+    
+    // 允许导入JSON文件
+    "resolveJsonModule": true,
+    
+    // 使用ES模块互操作
+    "esModuleInterop": true,
+    
+    // 跳过库类型检查
+    "skipLibCheck": true,
+    
+    // 强制文件名大小写一致
+    "forceConsistentCasingInFileNames": true
+  },
+  // 要编译的文件
+  "include": ["src/**/*"],
+  // 排除的文件
+  "exclude": ["node_modules", "dist"]
+}
