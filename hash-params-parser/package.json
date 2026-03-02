@@ -1,0 +1,24 @@
+{
+  "name": "hash-params-parser",
+  "version": "1.0.2",
+  "description": "哈希路由参数解析",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "test": "node dist/test.js"
+  },
+  "keywords": ["hash-params-parser", "hash", "params", "parser"],
+  "author": "zenar-rye",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  }
+}
