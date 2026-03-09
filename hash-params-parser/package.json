@@ -1,6 +1,6 @@
 {
   "name": "hash-params-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "哈希路由参数解析",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",

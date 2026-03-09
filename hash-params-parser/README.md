@@ -13,6 +13,3 @@ const res0:IParamsResult=getLocationParams(testv1) // {code:tbcy9saq,language:zh
 const res1:IParamsResult=getLocationParams(location.href) // {code:24,language:zhCN,id=12}
 const res2:IParamsResult=getLocationParams() // {code:24,language:zhCN,id=12}
 ```
-
-
-
